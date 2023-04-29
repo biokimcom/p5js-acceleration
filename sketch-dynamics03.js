@@ -11,6 +11,7 @@ function setup() {
   createCanvas(1000, 700);
   img = createImg("car.png");
   img.hide();
+  img.size(88,50);
   
   car = new mover(0,100);
   
